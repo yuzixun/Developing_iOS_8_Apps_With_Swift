@@ -3601,218 +3601,272 @@ I'm gonna make this as big as possible for us here.
 901
 00:39:12,021 --> 00:39:15,589
 That's all right, that there.
+好，还有这里
 
 902
 00:39:16,792 --> 00:39:19,926
 Lot of graphical things happening.
 
+
 903
 00:39:19,928 --> 00:39:20,559
 Let's just do that.
 
+
 904
 00:39:22,063 --> 00:39:25,030
 Okay, so I'm gonna start with those text fields at
+好，让我们先从顶部的
 
 905
 00:39:25,032 --> 00:39:26,531
 the top, right?
+那些文本框开始，如何？
 
 906
 00:39:26,533 --> 00:39:28,633
 I need a username and password text field.
+我需要一个用户名和密码的文本框
 
 907
 00:39:28,635 --> 00:39:32,003
 So I'm gonna go down here and grab a text field.
+向下滚动，然后拖出一个文本框
 
 908
 00:39:32,005 --> 00:39:34,471
 Okay, this is actually gonna be an editable one, so
+好，实际上，需要一个可编辑的文本框
 
 909
 00:39:34,473 --> 00:39:36,973
 I grab this one, text, not label, but text.
+把这个拖出来，文本框，不是标签，是文本框
 
 910
 00:39:36,975 --> 00:39:40,377
 And I'm going to put it up in the upper corner to start.
+把它放到比较上面的角落里
 
 911
 00:39:40,379 --> 00:39:43,112
 Grab another one, put this here.
+再拖出一个，把它放在这里
 
 912
 00:39:43,114 --> 00:39:45,581
 Okay, now, I'm gonna use some model layout stuff you
+好，现在，我要用一些布局模型的东西
 
 913
 00:39:45,583 --> 00:39:46,248
 already know about.
+你已经知道的东西
 
 914
 00:39:46,250 --> 00:39:47,582
 I'm gonna use Ctrll drag.
+按住Ctrl，并拖动
 
 915
 00:39:47,584 --> 00:39:50,919
 Let's stick this one trailing space to that edge.
+让这个与边缘保持尾部空间
 
 916
 00:39:50,921 --> 00:39:52,854
 Let's stick this one with this trailing space to that end.
+让这个与
 
 917
 00:39:52,856 --> 00:39:55,256
 Let's get this one to the top.
 
+
 918
 00:39:55,258 --> 00:39:56,423
 Let's put a space in
+在这两者的垂直方向上
 
 919
 00:39:56,425 --> 00:39:58,892
 between the vertical space between them.
+留出一些空间
 
 920
 00:39:58,894 --> 00:39:59,793
 You know about.
+你知道
 
 921
 00:39:59,795 --> 00:40:01,394
 Doing all those kind of things.
+所有这类的操作
 
 922
 00:40:01,396 --> 00:40:04,397
 Now one thing as I'm working with auto layout I
+当我在执行自动布局的时候
 
 923
 00:40:04,399 --> 00:40:07,799
 often like to click this little button right here.
+我经常点击这里的这个小按钮
 
 924
 00:40:08,735 --> 00:40:10,535
 Because this will
+因为它会
 
 925
 00:40:10,536 --> 00:40:12,336
 give you a little summary of what's going on.
+向你呈现，对发生的事，的总结
 
 926
 00:40:13,473 --> 00:40:16,373
 And when all it's complaining about is that frames are gonna
+当所有的这些都提示你，需要移动frame时
 
 927
 00:40:16,375 --> 00:40:19,810
 be moved, a cool thing you can do is go down here
+你可以做一件很酷的事，
 
 928
 00:40:19,812 --> 00:40:21,411
 to this button.
+向下移动到这个按钮
 
 929
 00:40:21,413 --> 00:40:24,881
 The same one where we do Reset to Suggested Constraints and
+和Reset to Suggested Constraints、Clear Constraints，是同一个按钮
 
 930
 00:40:24,883 --> 00:40:27,717
 Clear Constraints, there's this Update Frame.
+这里有一个Update Frame
 
 931
 00:40:27,719 --> 00:40:33,789
 And it will update all frames in your storyboard.
+它将会更新storyboard中的所有frame
 
 932
 00:40:33,791 --> 00:40:35,990
 Now, it made those smaller because the text in
+现在，它把文本框变小了，因为此时在文本框中
 
 933
 00:40:35,992 --> 00:40:38,059
 them is small, but don't worry about that.
+的文本是小的，但这无关紧要
 
 934
 00:40:38,061 --> 00:40:39,326
 We're gonna fix that later.
+我们以后再来修复它
 
 935
 00:40:39,328 --> 00:40:41,829
 So I did Undo right there because I wanted them to be
+所以我做了Undo操作，因为我希望这两个文本框
 
 936
 00:40:41,831 --> 00:40:44,698
 a little bigger just as I work.
+在我操作的时候，能够大一点
 
 937
 00:40:44,700 --> 00:40:45,832
 Okay? But I'll be going back to
+但是，我还是会经常回去
 
 938
 00:40:45,834 --> 00:40:47,400
 look at this often.
+查看这个按钮
 
 939
 00:40:47,402 --> 00:40:48,734
 And if I see it's just frames,
+如果我看到的仅仅是frame
 
 940
 00:40:48,736 --> 00:40:50,202
 then I'll be doing Update Frames.
+那么我就会Update Frames
 
 941
 00:40:50,204 --> 00:40:51,636
 And if I don't like what it did I
+如果我不喜欢它的操作
 
 942
 00:40:51,638 --> 00:40:52,804
 can always undo, keep going.
+我也总是可以撤销，然后继续
 
 943
 00:40:52,806 --> 00:40:54,405
 All right?
 
+
 944
 00:40:54,407 --> 00:40:58,175
 So let's go and do our things here for
+让我们继续做用户名和密码框
 
 945
 00:40:58,177 --> 00:41:02,846
 the user name and password fields.
 
+
 946
 00:41:02,848 --> 00:41:04,914
 So I'm just going to put some text in these.
+我要在标签里输入一些文字
 
 947
 00:41:04,916 --> 00:41:05,915
 Password.
+密码
 
 948
 00:41:07,185 --> 00:41:09,351
 User name, so
+用户名
 
 949
 00:41:09,353 --> 00:41:12,421
 these ones I kind of want to be on the left.
+这几个东西，我想让他们放在左边
 
 950
 00:41:12,423 --> 00:41:13,588
 Okay, if you remember.
+如果你记得
 
 951
 00:41:13,590 --> 00:41:15,590
 So I'm gonna do the same thing here with control drag.
+我将用control+drag，执行相同的操作
 
 952
 00:41:15,592 --> 00:41:18,125
 Let's set that leaning space.
+设置leaning space
 
 953
 00:41:18,127 --> 00:41:19,993
 Let's set that leaning space.
+同样，再次设置leaning space
 
 954
 00:41:19,995 --> 00:41:21,294
 Let's set this thing to the,
+
 
 955
 00:41:21,296 --> 00:41:22,929
