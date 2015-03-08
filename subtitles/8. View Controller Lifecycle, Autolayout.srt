@@ -4783,6 +4783,7 @@ Now, there's no base lines because this is not text.
 1183
 00:50:11,579 --> 00:50:12,678
 This is just a generic view.
+这只是一个普通的view
 
 1184
 00:50:12,680 --> 00:50:14,512
